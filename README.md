@@ -1,4 +1,24 @@
 # AI-Based-Crop-Recommendation-System
 The Crop Recommendation System is a machine learning-based application that provides recommendations for suitable crops based on various environmental and soil conditions. It aims to assist farmers and agricultural professionals in making informed decisions about crop selection, optimizing yields, and maximizing profitability.
 
-In my project AI-Based Crop Recommendation System, I have completed around 30% of the work using the crop_recommendation.csv dataset. This dataset contains important agricultural features such as Nitrogen (N), Phosphorus (P), Potassium (K), temperature, humidity, pH, rainfall, and the corresponding crop label. I explored the dataset using .info(), .describe(), and .isnull().sum() to understand its structure and ensure data quality. I then performed preprocessing steps such as handling null values, encoding the crop labels, and normalizing numerical features to make the dataset suitable for machine learning models. I also carried out exploratory data analysis (EDA) using visualization techniques, which helped me identify useful patterns, for example, rice is suitable in high rainfall and humidity, wheat grows well in moderate conditions, and cotton prefers hot and dry climates. For the model testing part, I selected three classification algorithms: Logistic Regression, Random Forest, and Naive Bayes. After training and testing these models, I compared their performance and found that the Random Forest Classifier gave the best accuracy and more reliable results. Therefore, I finalized Random Forest as the primary algorithm for my project, and the upcoming stages will focus on fine-tuning, evaluation, and deployment.
+# 1.Introduction
+  Agriculture plays a vital role in the Indian economy, but many farmers face reduced productivity because they rely on traditional knowledge rather than data-driven decisions for selecting crops. An AI-based crop recommendation system helps in suggesting the most suitable crop by analyzing soil nutrients, environmental conditions, and rainfall data.
+
+  This project leverages machine learning models to recommend the best crop for a given farmland, ensuring higher yield, better resource utilization, and improved income for farmers.
+
+# 2.Problem Statement
+● Farmers struggle to decide the most profitable and suitable crop for their land.
+
+● Manual decisions may lead to reduced yield, soil degradation, and financial loss.
+
+● Need for a data-driven intelligent system that suggests crops based on soil and climate conditions.
+
+# 3.Objectives
+● To build a predictive model that recommends crops using soil & weather data.
+
+● To compare multiple ML models (Logistic Regression, Naïve Bayes, Random Forest).
+
+● To finalize the best-performing model (Random Forest).
+
+● To provide an easy-to-use system (web/mobile app) for farmers.
+
