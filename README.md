@@ -1,5 +1,5 @@
 # AI-Based-Crop-Recommendation-System
-The Crop Recommendation System is a machine learning-based application that provides recommendations for suitable crops based on various environmental and soil conditions. It aims to assist farmers and agricultural professionals in making informed decisions about crop selection, optimizing yields, and maximizing profitability.
+
 
 # 1.Introduction
   Agriculture plays a vital role in the Indian economy, but many farmers face reduced productivity because they rely on traditional knowledge rather than data-driven decisions for selecting crops. An AI-based crop recommendation system helps in suggesting the most suitable crop by analyzing soil nutrients, environmental conditions, and rainfall data.
@@ -7,28 +7,30 @@ The Crop Recommendation System is a machine learning-based application that prov
   This project leverages machine learning models to recommend the best crop for a given farmland, ensuring higher yield, better resource utilization, and improved income for farmers.
 
 # 2.Problem Statement
-● Farmers struggle to decide the most profitable and suitable crop for their land.
+• Farmers struggle to decide the most profitable and suitable crop for their land.
 
-● Manual decisions may lead to reduced yield, soil degradation, and financial loss.
+• Manual decisions may lead to reduced yield, soil degradation, and financial loss.
 
-● Need for a data-driven intelligent system that suggests crops based on soil and climate conditions.
+• Need for a data-driven intelligent system that suggests crops based on soil and climate conditions.
 
 # 3.Objectives
-● To build a predictive model that recommends crops using soil & weather data.
+• To build a predictive model that recommends crops using soil & weather data.
 
-● To compare multiple ML models (Logistic Regression, Naïve Bayes, Random Forest).
+• To compare multiple ML models (Logistic Regression, Naïve Bayes, Random Forest).
 
-● To finalize the best-performing model (Random Forest).
+• To finalize the best-performing model (Random Forest).
 
-● To provide an easy-to-use system (web/mobile app) for farmers.
+• To provide an easy-to-use system (web/mobile app) for farmers.
 
 # 4.Dataset Description 
-# Dataset Used: crop_recommendation.csv
+Dataset Used: crop_recommendation.csv
 
 Features (Inputs):
 
 N: Nitrogen content in soil
+
 P: Phosphorus content in soil
+
 K: Potassium content in soil
 
 Temperature (°C)
@@ -48,9 +50,9 @@ Target (Output): Crop label (22 crop types such as rice, wheat, maize, mango, co
   The methodology of this project involves several key steps. First, the crop recommendation dataset is preprocessed by checking for missing values, normalizing features where required, and splitting the data into training and testing sets. Next, different machine learning algorithms such as Logistic Regression, Naïve Bayes, and Random Forest are applied to build predictive models. The models are evaluated using accuracy, F1-score, and confusion matrix to compare their performance. Among these, Random Forest achieved the best accuracy and robustness in handling non-linear feature interactions, making it the final model for deployment. Finally, the trained model is integrated into a user-friendly system where soil and climate inputs are processed to recommend the most suitable crops.
 
 # 7.Results
-Logistic Regression → ~94% accuracy
+Logistic Regression → ~96% accuracy
 
-Support Vector Machine → ~98% accuracy
+Support Vector Machine → ~97% accuracy
 
 Random Forest → ~99% accuracy (final model)
 
